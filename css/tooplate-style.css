@@ -1,6 +1,5 @@
 /*
-Template 2109 The Card
-http://www.tooplate.com/view/2109-the-card
+GiovaldiRC
 */
 
 * {
@@ -23,8 +22,8 @@ a {
 footer a:link, footer a:visited {
 	color: #FFF;
 }
-.tm-text-blue {
-  color: #00ccfc;
+.tm-text-red {
+  color: #94ff99;
 }
 
 .tm-main-container {
@@ -41,18 +40,18 @@ footer a:link, footer a:visited {
 
 .tm-navbar-menu {
   display: block;
-  color: black;
-  background: white;
+  color: grey;
+  background: black;
   padding: 10px 20px;
   margin-bottom: 18px;
-  width: 95px;
+  width: 170px;
   margin-right: 0;
   margin-left: auto;
   text-align: center;
 }
 
 .tm-navbar-menu:hover {
-  color: #950000;
+  color: #cdffd0;
   text-decoration: none;
 }
 
@@ -68,7 +67,7 @@ footer a:link, footer a:visited {
 .tm-nav-link:link,
 .tm-nav-link:visited {
   color: black;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 10px 40px;
   display: block;
   margin-bottom: 6px;
@@ -79,11 +78,11 @@ footer a:link, footer a:visited {
 .tm-nav-link:hover,
 .tm-nav-link:focus {
   text-decoration: none;
-  color: #950000;
+  color: #94ff9a;
 }
 
 .tm-bg-dark {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .tm-site-header-box {
@@ -111,7 +110,7 @@ footer a:link, footer a:visited {
 }
 
 .tm-section {
-  margin-right: 75px;
+  margin-left: 85px;
   max-width: 100%;
 }
 
@@ -122,7 +121,7 @@ footer a:link, footer a:visited {
 }
 
 .tm-textbox {
-  padding: 45px;
+  padding: 35px;
   font-size: 1.1rem;
   color: #c5c7c6;
   line-height: 1.8;
@@ -133,17 +132,17 @@ footer a:link, footer a:visited {
 }
 
 .tm-section-0 {
-  margin-top: 70px;
+  margin-top: 10px;
   max-width: 575px;
 }
 .tm-section-1 {
-  margin-top: 70px;
+  margin-top: 230px;
   max-width: 420px;
 }
 
 .tm-link:link,
 .tm-link:visited {
-  background-color: white;
+  background-color: grey;
   padding: 15px 30px;
   color: black;
   border-radius: 5px;
@@ -155,7 +154,7 @@ footer a:link, footer a:visited {
 .tm-link:focus,
 .tm-link:hover {
   text-decoration: none;
-  color: #950000;
+  color: #cdffd0;
 }
 
 .tm-bottom-container {
@@ -169,14 +168,15 @@ footer a:link, footer a:visited {
 }
 
 .tm-barcode-box {
-  margin-bottom: 30px;
-  margin-left: 95px;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  margin-left: 15px;
 }
 
 footer {
   font-weight: 300;
   margin-bottom: 30px;
-  margin-left: 40px;
+  margin-left: 20px;
   font-size: 0.95rem;
   margin-right: 40px;
   line-height: 2;
@@ -206,12 +206,12 @@ footer {
 
 .slick-dots li:hover,
 .slick-dots li.slick-active {
-  background-color: #a20015;
+  background-color: #cdffd0;
 }
 
 .slick-dots li:hover a:not([href]):not([tabindex]),
 .slick-dots li.slick-active a:not([href]):not([tabindex]) {
-  color: white;
+  color: grey;
 }
 
 .slick-dots li a:not([href]):not([tabindex]) {
@@ -309,7 +309,7 @@ footer {
 /*-----------------*/
 
 figure.effect-goliath {
-  background: #df4e4e;
+  background: #94ff99;
 }
 
 figure.effect-goliath img,
@@ -379,15 +379,15 @@ figure.effect-goliath:hover p {
   border-radius: 0;
   border: none;
   border-bottom: 1px solid black;
-  background-color: transparent;
-  color: black;
-  padding: 10px 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: white;
+  padding: 10px 10px;
 }
 
 .form-control:focus {
   box-shadow: none;
   background-color: transparent;
-  border-color: #950000;
+  border-color: #94ff99;
 }
 
 .form-control::placeholder {
@@ -412,7 +412,7 @@ figure.effect-goliath:hover p {
 
 .tm-send-btn {
   border-radius: 0;
-  background-color: transparent;
+  background-color: grey;
   border: none;
   border-top: 1px solid transparent;
   border-bottom: 1px solid black;
@@ -457,7 +457,7 @@ figure.effect-goliath:hover p {
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #3498db;
+  border-top-color: #00a108;
 
   -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -474,7 +474,7 @@ figure.effect-goliath:hover p {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #e74c3c;
+  border-top-color: #67f56f;
 
   -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -489,7 +489,7 @@ figure.effect-goliath:hover p {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #f9c922;
+  border-top-color: #cdffd0;
 
   -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
   animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
@@ -651,3 +651,4 @@ figure.effect-goliath:hover p {
 .tm-static {
   position: static;
 }
+
